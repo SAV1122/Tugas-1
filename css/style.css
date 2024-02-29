@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url('../img/header.png');
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.colum {
+    float: left;
+    padding: 10px;
+}
+
+.colum.side {
+    width: 25%;
+}
+
+.colum.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
